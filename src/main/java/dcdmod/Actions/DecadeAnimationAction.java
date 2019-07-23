@@ -67,7 +67,11 @@ public class DecadeAnimationAction {
     		"img/char/DCD_Animational/kabuto/kamenform_normal.json",//61
     		"img/char/DCD_Animational/kabuto/kamenriderswitch_tokamenform.json",//62
     		"img/char/DCD_Animational/kabuto/kamenriderswitch_toriderform.json",//63
-    		"img/char/DCD_Animational/kabuto/kabuto_backtodcd.json"//64
+    		"img/char/DCD_Animational/kabuto/kabuto_backtodcd.json",//64
+			"img/char/DCD_Animational/FAR/Decade_FAR1.json",//65
+            "img/char/DCD_Animational/FAR/Decade_FAR2.json",//66
+            "img/char/DCD_Animational/FAR/Decade_FAR3.json",//67
+            "img/char/DCD_Animational/FAR/Decade_FAR_kick.json",//68
     		};
 	
 	public static String [] ATLAS = {
@@ -135,7 +139,11 @@ public class DecadeAnimationAction {
     		"img/char/DCD_Animational/kabuto/kamenform_normal.atlas",//61
     		"img/char/DCD_Animational/kabuto/kamenriderswitch.atlas",//62
     		"img/char/DCD_Animational/kabuto/kamenriderswitch.atlas",//63
-    		"img/char/DCD_Animational/kabuto/kabuto_backtodcd.atlas"//64
+    		"img/char/DCD_Animational/kabuto/kabuto_backtodcd.atlas",//64
+            "img/char/DCD_Animational/FAR/Decade_FAR1.atlas",//65
+            "img/char/DCD_Animational/FAR/Decade_FAR2.atlas",//66
+            "img/char/DCD_Animational/FAR/Decade_FAR3.atlas",//67
+            "img/char/DCD_Animational/FAR/Decade_FAR_kick.atlas",//68
     		};
 	
 	public static String [] NAME = {
@@ -203,7 +211,11 @@ public class DecadeAnimationAction {
     		"normal",//61
     		"tokamenform",//62
     		"toriderform",//63
-    		"backtodcd"//64
+    		"backtodcd",//64
+            "FAR1",//65
+            "FAR2",//66
+            "FAR3",//67
+            "kick",//68
 	};
     
 }
