@@ -14,21 +14,21 @@
             <artifactId>slaythespire</artifactId>
             <version>016</version>
             <scope>system</scope>
-            <systemPath>${basedir}/../lib/desktop-1.0.jar</systemPath>
+            <systemPath>${basedir}/src/lib/desktop-1.0.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>basemod</groupId>
             <artifactId>basemod</artifactId>
             <version>5.15.0</version>
             <scope>system</scope>
-            <systemPath>${basedir}/../lib/BaseMod.jar</systemPath>
+            <systemPath>${basedir}/src/lib/BaseMod.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>com.evacipated.cardcrawl</groupId>
             <artifactId>ModTheSpire</artifactId>
             <version>3.11.0</version>
             <scope>system</scope>
-            <systemPath>${basedir}/../lib/ModTheSpire.jar</systemPath>
+            <systemPath>${basedir}/src/lib/ModTheSpire.jar</systemPath>
         </dependency>
     </dependencies>
 
@@ -53,7 +53,7 @@
                         <phase>package</phase>
                         <configuration>
                             <target>
-                                <copy file="target/DCD.jar" tofile="../lib/DCD.jar"/>
+                                <copy file="target/DCD.jar" tofile="../DCD.jar"/>
                             </target>
                         </configuration>
                         <goals>
